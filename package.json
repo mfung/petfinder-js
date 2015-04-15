@@ -1,6 +1,6 @@
 {
   "name": "petfinder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Petfinder API module.",
   "main": "index.js",
   "scripts": {
