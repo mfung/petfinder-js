@@ -1,0 +1,44 @@
+{
+  "name": "petfinder",
+  "version": "0.1.0",
+  "description": "Petfinder API module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --grep '#skip' --invert",
+    "skipped": "./node_modules/.bin/mocha --grep '#skip'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfung/petfinder-js.git"
+  },
+  "keywords": [
+    "Petfinder",
+    "API"
+  ],
+  "author": "Meng Fung <meng.fung@gmail.com> (http://mengfung.com)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mfung/petfinder-js/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mfung/petfinder-js/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.35"
+  },
+  "dependencies": {
+    "request": ">= 2.55.0",
+    "querystring": ">= 0.2.0",
+    "lodash": ">= 3.6.0",
+    "crypto": "latest"
+  },
+  "devDependencies": {
+    "dotenv": ">= 1.1.0",
+    "mocha": ">= 2.2.1",
+    "chai": ">= 2.2.0",
+    "replay": "latest"
+  },
+  "homepage": "https://github.com/mfung/petfinder-js"
+}
